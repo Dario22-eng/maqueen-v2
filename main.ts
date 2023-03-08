@@ -11,7 +11,7 @@ radio.onReceivedNumber(function (receivedNumber) {
         maqueen.motorRun(maqueen.Motors.M2, maqueen.Dir.CW, 255)
     }
     if (receivedNumber == 3) {
-        maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 0)
+        maqueen.motorRun(maqueen.Motors.All, maqueen.Dir.CW, 255)
     }
 })
 radio.setGroup(1)
